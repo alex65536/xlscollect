@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   viewBox="0 0 256 256"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/mydata/TaskDevelop/xlsCollector/logo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="TriangleOutS"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutS"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4982"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000070;stroke-width:1pt;stroke-opacity:1;fill:#000070;fill-opacity:1"
+         transform="scale(0.2)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutL"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4976"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#006900;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4861"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#006900;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4855"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#006900;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <clipPath
+       id="presentation_clip_path"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         x="0"
+         y="0"
+         width="21000"
+         height="29700"
+         id="rect4359" />
+    </clipPath>
+    <clipPath
+       id="presentation_clip_path-3"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         x="0"
+         y="0"
+         width="21000"
+         height="29700"
+         id="rect4581" />
+    </clipPath>
+    <clipPath
+       id="presentation_clip_path-6"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         x="0"
+         y="0"
+         width="21000"
+         height="29700"
+         id="rect4893" />
+    </clipPath>
+    <clipPath
+       id="presentation_clip_path-0"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         x="0"
+         y="0"
+         width="21000"
+         height="29700"
+         id="rect5205" />
+    </clipPath>
+    <marker
+       inkscape:stockid="TriangleOutS"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutS-4"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4982-8"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#000070;fill-opacity:1;fill-rule:evenodd;stroke:#000070;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.2,0.2)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="-32.887837"
+     inkscape:cy="92.231447"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-796.36216)">
+    <g
+       transform="matrix(0.43845355,0,0,0.438516,-1.0411812,520.49286)"
+       id="layer1-3"
+       inkscape:label="Layer 1">
+      <g
+         id="g5604">
+        <g
+           style="fill-rule:evenodd;stroke-width:28.22200012;stroke-linejoin:round"
+           id="g4446"
+           transform="matrix(0.02452203,0,0.00489459,0.02556525,-41.56256,-104.71889)">
+          <g
+             id="g4407">
+            <g
+               class="Master_Slide"
+               id="id2">
+              <g
+                 class="Background"
+                 id="bg-id2" />
+              <g
+                 class="BackgroundObjects"
+                 id="bo-id2" />
+            </g>
+          </g>
+        </g>
+        <g
+           transform="matrix(0.96533099,-0.26102891,0.26102891,0.96533099,-53.550084,676.55836)"
+           id="g5758">
+          <g
+             transform="matrix(0.0133642,0.00808344,-0.01656182,0.02086888,186.16569,-163.772)"
+             id="g4668"
+             style="fill-rule:evenodd;stroke-width:28.22200012;stroke-linejoin:round">
+            <g
+               id="g4629">
+              <g
+                 id="id2-6"
+                 class="Master_Slide">
+                <g
+                   id="bg-id2-7"
+                   class="Background" />
+                <g
+                   id="bo-id2-5"
+                   class="BackgroundObjects" />
+              </g>
+            </g>
+            <g
+               class="SlideGroup"
+               id="g4634">
+              <g
+                 id="g4636">
+                <g
+                   id="id1-3"
+                   class="Slide"
+                   clip-path="url(#presentation_clip_path-3)">
+                  <g
+                     class="Page"
+                     id="g4639">
+                    <g
+                       class="com.sun.star.drawing.CustomShape"
+                       id="g4641">
+                      <g
+                         id="id3-5">
+                        <rect
+                           style="fill:none;stroke:none"
+                           class="BoundingBox"
+                           x="5000"
+                           y="5200"
+                           width="10604"
+                           height="9304"
+                           id="rect4644" />
+                        <path
+                           style="fill:#ff9999;stroke:none"
+                           inkscape:connector-curvature="0"
+                           d="m 10301,5201 5301,9301 -10601,0 5300,-9301 z m -5300,0 0,0 z m 10601,9301 0,0 z"
+                           id="path4646" />
+                        <path
+                           style="fill:none;stroke:#990000;stroke-width:112.25009918"
+                           inkscape:connector-curvature="0"
+                           d="m 10301,5201 5301,9301 -10601,0 5300,-9301 z"
+                           id="path4648" />
+                        <path
+                           style="fill:none;stroke:#990000;stroke-width:112.25009918"
+                           inkscape:connector-curvature="0"
+                           d="m 5001,5201 0,0 z"
+                           id="path4650" />
+                        <path
+                           style="fill:none;stroke:#990000;stroke-width:112.25009918"
+                           inkscape:connector-curvature="0"
+                           d="m 15602,14502 0,0 z"
+                           id="path4652" />
+                        <text
+                           class="TextShape"
+                           id="text4654">
+                          <tspan
+                             style="font-weight:700;font-size:3528px;font-family:Ubuntu"
+                             class="TextParagraph"
+                             font-size="3528px"
+                             font-weight="700"
+                             id="tspan4656">
+                            <tspan
+                               class="TextPosition"
+                               x="7428"
+                               y="12711"
+                               id="tspan4658">
+                              <tspan
+                                 style="fill:#ff0000;stroke:none"
+                                 id="tspan4660">WA</tspan>
+                            </tspan>
+                          </tspan>
+                        </text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g
+             id="g5701">
+            <g
+               id="g4412"
+               class="SlideGroup"
+               style="fill-rule:evenodd;stroke-width:28.22200012;stroke-linejoin:round"
+               transform="matrix(0.02452203,0,0.00489459,0.02556525,-41.56256,-104.71889)">
+              <g
+                 id="g4414">
+                <g
+                   clip-path="url(#presentation_clip_path)"
+                   class="Slide"
+                   id="id1">
+                  <g
+                     id="g4417"
+                     class="Page">
+                    <g
+                       id="g4419"
+                       class="com.sun.star.drawing.CustomShape">
+                      <g
+                         id="id3">
+                        <rect
+                           id="rect4422"
+                           height="9304"
+                           width="10604"
+                           y="5199"
+                           x="4999"
+                           class="BoundingBox"
+                           style="fill:none;stroke:none" />
+                        <path
+                           id="path4424"
+                           d="m 10300,5200 5301,9301 -10601,0 5300,-9301 z m -5300,0 0,0 z m 10601,9301 0,0 z"
+                           inkscape:connector-curvature="0"
+                           style="fill:#99ff99;stroke:none" />
+                        <path
+                           id="path4426"
+                           d="m 10300,5200 5301,9301 -10601,0 5300,-9301 z"
+                           inkscape:connector-curvature="0"
+                           style="fill:none;stroke:#336633;stroke-width:91.08335114" />
+                        <path
+                           id="path4428"
+                           d="m 5000,5200 0,0 z"
+                           inkscape:connector-curvature="0"
+                           style="fill:none;stroke:#336633;stroke-width:91.08335114" />
+                        <path
+                           id="path4430"
+                           d="m 15601,14501 0,0 z"
+                           inkscape:connector-curvature="0"
+                           style="fill:none;stroke:#336633;stroke-width:91.08335114" />
+                        <text
+                           id="text4432"
+                           class="TextShape">
+                          <tspan
+                             id="tspan4434"
+                             font-weight="700"
+                             font-size="3528px"
+                             class="TextParagraph"
+                             style="font-weight:700;font-size:3528px;font-family:Ubuntu">
+                            <tspan
+                               id="tspan4436"
+                               y="12710"
+                               x="7700"
+                               class="TextPosition">
+                              <tspan
+                                 id="tspan4438"
+                                 style="fill:#006600;stroke:none">OK</tspan>
+                            </tspan>
+                          </tspan>
+                        </text>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g
+               style="fill-rule:evenodd;stroke-width:28.22200012;stroke-linejoin:round"
+               id="g4980"
+               transform="matrix(0.02219718,-0.01551328,0.01560012,0.00889757,-160.81489,379.77336)">
+              <g
+                 id="g4941">
+                <g
+                   class="Master_Slide"
+                   id="id2-2">
+                  <g
+                     class="Background"
+                     id="bg-id2-9" />
+                  <g
+                     class="BackgroundObjects"
+                     id="bo-id2-1" />
+                </g>
+              </g>
+              <g
+                 id="g4946"
+                 class="SlideGroup">
+                <g
+                   id="g4948">
+                  <g
+                     clip-path="url(#presentation_clip_path-6)"
+                     class="Slide"
+                     id="id1-2">
+                    <g
+                       id="g4951"
+                       class="Page">
+                      <g
+                         id="g4953"
+                         class="com.sun.star.drawing.CustomShape">
+                        <g
+                           id="id3-7">
+                          <rect
+                             id="rect4956"
+                             height="9304"
+                             width="10604"
+                             y="5200"
+                             x="5000"
+                             class="BoundingBox"
+                             style="fill:none;stroke:none" />
+                          <path
+                             id="path4958"
+                             d="m 10301,5201 5301,9301 -10601,0 5300,-9301 z m -5300,0 0,0 z m 10601,9301 0,0 z"
+                             inkscape:connector-curvature="0"
+                             style="fill:#9999ff;stroke:none" />
+                          <path
+                             id="path4960"
+                             d="m 10301,5201 5301,9301 -10601,0 5300,-9301 z"
+                             inkscape:connector-curvature="0"
+                             style="fill:none;stroke:#000099;stroke-width:108.78216553" />
+                          <path
+                             id="path4962"
+                             d="m 5001,5201 0,0 z"
+                             inkscape:connector-curvature="0"
+                             style="fill:none;stroke:#000099;stroke-width:108.78216553" />
+                          <path
+                             id="path4964"
+                             d="m 15602,14502 0,0 z"
+                             inkscape:connector-curvature="0"
+                             style="fill:none;stroke:#000099;stroke-width:108.78216553" />
+                          <text
+                             id="text4966"
+                             class="TextShape">
+                            <tspan
+                               id="tspan4968"
+                               font-weight="700"
+                               font-size="3528px"
+                               class="TextParagraph"
+                               style="font-weight:700;font-size:3528px;font-family:Ubuntu">
+                              <tspan
+                                 id="tspan4970"
+                                 y="12711"
+                                 x="8227"
+                                 class="TextPosition">
+                                <tspan
+                                   id="tspan4972"
+                                   style="fill:#0000ff;stroke:none">TL</tspan>
+                              </tspan>
+                            </tspan>
+                          </text>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+            <g
+               style="fill-rule:evenodd;stroke-width:28.22200012;stroke-linejoin:round"
+               id="g5292"
+               transform="matrix(0.02029087,0.01926856,-0.00526554,0.00553085,-57.26692,67.776955)">
+              <g
+                 id="g5253">
+                <g
+                   class="Master_Slide"
+                   id="id2-9">
+                  <g
+                     class="Background"
+                     id="bg-id2-3" />
+                  <g
+                     class="BackgroundObjects"
+                     id="bo-id2-6" />
+                </g>
+              </g>
+              <g
+                 id="g5258"
+                 class="SlideGroup"
+                 transform="matrix(0.9748614,0.88696316,-0.06653238,0.96525334,649.40804,-14431.717)">
+                <g
+                   id="g5260">
+                  <g
+                     clip-path="url(#presentation_clip_path-0)"
+                     class="Slide"
+                     id="id1-0">
+                    <g
+                       id="g5263"
+                       class="Page">
+                      <g
+                         id="g5265"
+                         class="com.sun.star.drawing.CustomShape">
+                        <g
+                           id="id3-6">
+                          <rect
+                             id="rect5268"
+                             height="9304"
+                             width="10604"
+                             y="5200"
+                             x="5000"
+                             class="BoundingBox"
+                             style="fill:none;stroke:none" />
+                          <path
+                             id="path5270"
+                             d="m 10301,5201 5301,9301 -10601,0 5300,-9301 z m -5300,0 0,0 z m 10601,9301 0,0 z"
+                             inkscape:connector-curvature="0"
+                             style="fill:#cc66ff;stroke:none" />
+                          <path
+                             id="path5272"
+                             d="m 10301,5201 5301,9301 -10601,0 5300,-9301 z"
+                             inkscape:connector-curvature="0"
+                             style="fill:none;stroke:#660033;stroke-width:156.01089478" />
+                          <path
+                             id="path5274"
+                             d="m 5001,5201 0,0 z"
+                             inkscape:connector-curvature="0"
+                             style="fill:none;stroke:#660033;stroke-width:156.01089478" />
+                          <path
+                             id="path5276"
+                             d="m 15602,14502 0,0 z"
+                             inkscape:connector-curvature="0"
+                             style="fill:none;stroke:#660033;stroke-width:156.01089478" />
+                          <text
+                             id="text5278"
+                             class="TextShape">
+                            <tspan
+                               id="tspan5280"
+                               font-weight="700"
+                               font-size="3528px"
+                               class="TextParagraph"
+                               style="font-weight:700;font-size:3528px;font-family:Ubuntu">
+                              <tspan
+                                 id="tspan5282"
+                                 y="12711"
+                                 x="8055"
+                                 class="TextPosition">
+                                <tspan
+                                   id="tspan5284"
+                                   style="fill:#990066;stroke:none">RE</tspan>
+                              </tspan>
+                            </tspan>
+                          </text>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:73.83081055px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00ac00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="127.12189"
+       y="1032.8535"
+       id="text5980"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5982"
+         x="127.12189"
+         y="1032.8535"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:166.11932373px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#00ac00;fill-opacity:1">X</tspan></text>
+    <path
+       style="fill:#000070;fill-opacity:1;fill-rule:evenodd;stroke:#000070;stroke-width:23.89999962;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutS-4)"
+       d="M 89.337626,931.4436 167.7887,928.72564"
+       id="path4820"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

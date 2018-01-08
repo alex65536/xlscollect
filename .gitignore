@@ -1,0 +1,12 @@
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.lps
+*.log
+*.res
+**/backup/**
+**/lib/**
+.fuse*
+src/xlscollect

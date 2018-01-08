@@ -1,0 +1,104 @@
+object MainForm: TMainForm
+  Left = 0
+  Height = 488
+  Top = 0
+  Width = 608
+  Caption = 'XLS Collector'
+  ClientHeight = 488
+  ClientWidth = 608
+  Position = poScreenCenter
+  Visible = False
+  object FilePanel: TPanel
+    Left = 0
+    Height = 32
+    Top = 0
+    Width = 608
+    Align = alTop
+    BevelInner = bvLowered
+    ClientHeight = 32
+    ClientWidth = 608
+    Color = clWindow
+    ParentColor = False
+    TabOrder = 0
+    object FileLabel: TLabel
+      Left = 2
+      Height = 28
+      Top = 2
+      Width = 121
+      Align = alLeft
+      Caption = 'JSON files to collect: '
+      Layout = tlCenter
+      ParentColor = False
+    end
+    object FileNameEdit: TFileNameEdit
+      Left = 123
+      Height = 28
+      Top = 2
+      Width = 359
+      DialogOptions = [ofAllowMultiSelect, ofPathMustExist, ofFileMustExist, ofEnableSizing, ofViewDetail]
+      Filter = 'JSON files (*.json)|*.json'
+      FilterIndex = 0
+      DefaultExt = '*.json'
+      HideDirectories = False
+      ButtonWidth = 23
+      DirectInput = False
+      NumGlyphs = 1
+      FocusOnButtonClick = True
+      Align = alClient
+      MaxLength = 0
+      TabOrder = 0
+      OnChange = FileNameEditChange
+    end
+    object SaveBtn: TButton
+      Left = 482
+      Height = 28
+      Top = 2
+      Width = 62
+      Align = alRight
+      Caption = 'Save'
+      Color = clHighlight
+      Enabled = False
+      OnClick = SaveBtnClick
+      TabOrder = 1
+    end
+    object AboutBtn: TButton
+      Left = 544
+      Height = 28
+      Top = 2
+      Width = 62
+      Align = alRight
+      Caption = 'About'
+      Color = clHighlight
+      OnClick = AboutBtnClick
+      TabOrder = 2
+    end
+  end
+  object sWorksheetGrid: TsWorksheetGrid
+    Left = 0
+    Height = 456
+    Top = 32
+    Width = 608
+    AutoCalc = True
+    FrozenCols = 0
+    FrozenRows = 0
+    ReadFormulas = False
+    WorkbookSource = sWorksheetGrid.internal
+    Align = alClient
+    AutoAdvance = aaDown
+    AutoEdit = False
+    ColCount = 3
+    DefaultColWidth = 64
+    DefaultRowHeight = 24
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goColSizing, goSmoothScroll]
+    RowCount = 3
+    TabOrder = 1
+  end
+  object SaveDialog: TSaveDialog
+    DefaultExt = '.xls'
+    Filter = 'Excel 2003 files (*.xls)|*.xls|Excel 2007 files (*.xlsx)|*.xlsx|OpenOffice files (*.ods)|*.ods'
+    OnTypeChange = SaveDialogTypeChange
+    Options = [ofOverwritePrompt, ofEnableSizing, ofViewDetail]
+    left = 152
+    top = 160
+  end
+end
