@@ -23,9 +23,9 @@ unit mainunit;
 interface
 
 uses
-  Classes, SysUtils, Forms, ExtCtrls, StdCtrls, EditBtn, Dialogs, jsonparser,
-  fpjson, jsonscanner, LazFileUtils, fgl, fpspreadsheet, gmap, gutil, gvector,
-  fpsTypes, fpspreadsheetgrid, fpsRPN, Math, fpsutils;
+  Classes, SysUtils, Forms, ExtCtrls, StdCtrls, EditBtn, Dialogs, Spin,
+  jsonparser, fpjson, jsonscanner, LazFileUtils, fgl, fpspreadsheet, gmap,
+  gutil, gvector, fpsTypes, fpspreadsheetgrid, fpsRPN, Math, fpsutils;
 
 type
 
@@ -52,13 +52,20 @@ type
   { TMainForm }
 
   TMainForm = class(TForm)
+    CodeLenSpin: TSpinEdit;
+    TaskIdSpin: TSpinEdit;
     FileNameEdit: TFileNameEdit;
     FilePanel: TPanel;
     FileLabel: TLabel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
     Panel: TPanel;
+    SettingsPanel: TPanel;
     SaveBtn: TButton;
     AboutBtn: TButton;
     SaveDialog: TSaveDialog;
+    CodePosSpin: TSpinEdit;
     sWorksheetGrid: TsWorksheetGrid;
     procedure AboutBtnClick(Sender: TObject);
     procedure FileNameEditChange(Sender: TObject);
@@ -169,8 +176,8 @@ begin
             // Solutions named as in Mogilev city olympiad
             // T<participant code>Z<problem code><region>.<ext>
             // e. g. T111Z233.pas, T444Z566.cpp
-            TaskLetter := SolutionOwner[6];
-            SolutionOwner := Copy(SolutionOwner, 2, 3);
+            TaskLetter := SolutionOwner[TaskIdSpin.Value];
+            SolutionOwner := Copy(SolutionOwner, CodePosSpin.Value, CodeLenSpin.Value);
 
             // calculating the total score
             Score := 0;
