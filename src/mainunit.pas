@@ -160,8 +160,17 @@ begin
             // getting the source owner and task ID from filename
             SolutionFileName := Solution.Elements['SourceFile'].AsString;
             SolutionOwner := ExtractFileNameOnly(SolutionFileName);
-            TaskLetter := SolutionOwner[Length(SolutionOwner)];
-            Delete(SolutionOwner, Length(SolutionOwner), 1);
+
+            // Solutions named as <nickname><problem>.<ext>
+            // e. g. GepardovA.pas, alex1.cpp
+            // TaskLetter := SolutionOwner[Length(SolutionOwner)];
+            // Delete(SolutionOwner, Length(SolutionOwner), 1);
+
+            // Solutions named as in Mogilev city olympiad
+            // T<participant code>Z<problem code><region>.<ext>
+            // e. g. T111Z233.pas, T444Z566.cpp
+            TaskLetter := SolutionOwner[6];
+            SolutionOwner := Copy(SolutionOwner, 2, 3);
 
             // calculating the total score
             Score := 0;

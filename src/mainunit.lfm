@@ -7,6 +7,7 @@ object MainForm: TMainForm
   ClientHeight = 488
   ClientWidth = 608
   Position = poScreenCenter
+  LCLVersion = '1.8.0.6'
   Visible = False
   object FilePanel: TPanel
     Left = 0
