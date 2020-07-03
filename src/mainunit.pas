@@ -1,5 +1,5 @@
 {
-  Copyright (C) 2017-2018 Alexander Kernozhitsky <sh200105@mail.ru>
+  Copyright (C) 2017-2020 Alexander Kernozhitsky <sh200105@mail.ru>
 
   This source is free software; you can redistribute it and/or modify it under
   the terms of the GNU General Public License as published by the Free
@@ -381,7 +381,7 @@ var
       begin
         Worksheet.WriteRPNFormula(I + 1, TotalCol, CreateRPNFormula(
           RPNCellRange(I + 1, 1, I + 1, TotalCol - 1, [rfRelRow, rfRelRow2],
-          RPNFunc('SUM', nil))));
+          RPNFunc('SUM', 1, nil))));
       end;
 
       // add borders
@@ -406,16 +406,6 @@ var
         Options := [];
       end;
       Worksheet.Sort(SortParams, 1, 0, MaxH, TotalCol);
-
-      // recalculate total values - it's needed because TsWorksheet.Sort() works
-      // wrong with columns that contain formulas
-      // see this bug report: https://bugs.freepascal.org/view.php?id=31887
-      for I := 0 to integer(OwnerNames.Size) - 1 do
-      begin
-        Worksheet.WriteRPNFormula(I + 1, TotalCol, CreateRPNFormula(
-          RPNCellRange(I + 1, 1, I + 1, TotalCol - 1, [rfRelRow, rfRelRow2],
-          RPNFunc('SUM', nil))));
-      end;
 
       // finally, save it
       Workbook.WriteToFile(SaveDialog.FileName, True);
@@ -472,7 +462,7 @@ begin
   MessageDlg('About XLS Collector',
     'XLS Collector' + LineEnding +
     '' + LineEnding +
-    'Copyright (C) 2017-2018 Alexander Kernozhitsky' + LineEnding +
+    'Copyright (C) 2017-2020 Alexander Kernozhitsky' + LineEnding +
     '' + LineEnding +
     'Collects Tester testing results into a spreadsheet.' + LineEnding +
     '' + LineEnding +
